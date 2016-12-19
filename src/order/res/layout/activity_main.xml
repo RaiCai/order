@@ -1,0 +1,111 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="220dp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/viewGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="190dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/viewGroup2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_below="@+id/viewGroup"
+            android:layout_marginTop="250dp"
+            android:background="#ffdead"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="附近商家"
+                android:textColor="#000000"
+                android:textSize="15dip" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/layoutliner"
+            android:layout_below="@+id/viewGroup2" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/layoutliner"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:layout_weight="1"
+                android:background="@drawable/selector"
+                android:drawableTop="@drawable/diancan1"
+                android:text="点餐"
+                android:textColor="@color/huise"
+                android:textSize="10dip" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                
+                android:layout_weight="1"
+               android:background="@drawable/selector"
+                android:drawableTop="@drawable/dingdanone"
+                android:text="订单"
+                android:textColor="@color/huise"
+                android:textSize="10dip" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:layout_weight="1"
+                android:background="@drawable/selector"
+                android:drawableTop="@drawable/faxian1"
+                android:text="发现"
+                android:textColor="@color/huise"
+                android:textSize="10dip" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                
+                android:layout_weight="1"
+                android:background="@drawable/selector"
+                android:drawableTop="@drawable/geren1"
+                android:text="个人"
+                android:textColor="@color/huise"
+                android:textSize="10dip" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

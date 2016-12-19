@@ -5,5 +5,12 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="E:/android/BmobSDKDemo_v3.5.3/libs/BmobSDK_3.5.3_20161116.jar"/>
+	<classpathentry kind="lib" path="E:/android/BmobSDKDemo_v3.5.3/libs/gson-2.6.2.jar"/>
+	<classpathentry kind="lib" path="E:/android/BmobSDKDemo_v3.5.3/libs/okhttp-3.3.1.jar"/>
+	<classpathentry kind="lib" path="E:/android/BmobSDKDemo_v3.5.3/libs/okio-1.7.0.jar"/>
+	<classpathentry kind="lib" path="E:/android/BmobSDKDemo_v3.5.3/libs/org.apache.http.legacy.jar"/>
+	<classpathentry kind="lib" path="E:/android/BmobSDKDemo_v3.5.3/libs/rxandroid-1.2.0.jar"/>
+	<classpathentry kind="lib" path="E:/android/BmobSDKDemo_v3.5.3/libs/rxjava-1.1.6.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

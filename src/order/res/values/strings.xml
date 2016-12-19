@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-  <string name="app_name">餐点乐</string>
+     <string name="app_name">餐点乐</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
     <string name="phonenum">手机号</string>
     <string name="get_verification_code">获取验证码</string>
     <string name="verification_code">验证码</string>
     <string name="login">登录</string>
     <string name="singin">注册</string>
-    <string name="use_note_log">-------短信登录-------</string>
-    <string name="use_other_way_to_log">------使用第三方登录------</string>
-    <string name="nickname">昵称</string>
-    <string name="password">密码</string>
+    <string name="username">账户密码登录</string>
+    <string name="phonenumber">手机验证登录</string>
+    <string name="NickName">昵称</string>
+    <string name="PR_Number">+86</string>
+    <string name="PassWord">密码</string>
 
 </resources>
